@@ -22,6 +22,11 @@ var eventsApp = angular.module('eventsApp', ['ngResource', 'ngSanitize', 'ngRout
                     }
                 }
             });
+        $routeProvider.when('/SampleDirective',
+            {
+                templateUrl: 'templates/SampleDirective.html',
+                controller: 'SampleDirectiveController'
+            });
         $routeProvider.otherwise({ redirectTo: 'events' });
         $locationProvider.html5Mode(true);
     });
