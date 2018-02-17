@@ -5,5 +5,9 @@ eventsApp.controller('MainMenuController',
         $scope.createEvent = function() {            
             $location.url('/NewEvent');
         };
+
+        $scope.redirectToHome = function() {            
+            $location.url('/');
+        };
     }
 );
