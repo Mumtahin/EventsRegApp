@@ -5,7 +5,8 @@ An AngularJS web application for creating, viewing and voting for events.
 ## Features
 
 * Viewing a list of events
-* Event details with sessions list and voting feature
+* Event details with sessions list 
+* Up and down voting feature for sessions
 * Sorting functionality to order and filter sessions
 * Create new events
 
